@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+</head>
+<style>
+            body {
+            font-family: 'Open Sans',Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: black;
+            color: goldenrod;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img{
+            width: 20%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: goldenrod;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            min-height: 100vh;
+            margin-bottom: 30pxpx;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        section h3 {
+            color: #333;
+        }
+        section p {
+            line-height: 1.6;
+        }
+
+
+        footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        footer #socialmedia{
+            display: flex;
+            flex-direction: column;
+        }
+</style>
+<body>
+    <header>
+        <img src="../imagens/logo.png" alt="logo vinheria agnello">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Sobre nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <a href="produto1.html"><img src="../imagens/vinho_luis_pato_baga_touriga_nacional_beira_atlantico_2016 (1).webp" alt="Vinho luis pato" style="width: 40%;"></a>
+        <div style="width: 50%;">
+            <h2><a href="produto1.html">Vinho Luis Pato Baga Touriga Nacional Beira Atlantico 2021</a></h2>
+            <p>159,90 R$</p>
+        </div>
+    </section>
+    <section>
+        <a href="produto2.html"><img src="../imagens/vinho franc.png" alt="Vinho Cabernet-franc 2017" style="width: 40%;"></a>
+        <div style="width: 50%;">
+            <h2><a href="produto2.html">Vinho Guaspari Cabernet Sauvignon Cabernet Franc Vista da Mata</a></h2>
+            <p>247,90 R$</p>
+        </div>
+    </section>
+    <section>
+        <a href="produto3.html"><img src="../imagens/vinho_caymus_napa_valley_zinfandel_2017.webp" alt="Vinho Caymus Napa Valley Zinfandel" style="width: 40%;"></a>
+        <div style="width: 50%;">
+            <h2><a href="produto3.html">Vinho Caymus Napa Valley Zinfandel</a></h2>
+            <p>717,90 R$</p>
+        </div>
+    </section>
+    <section>
+        <a href="produto4.html"><img src="../imagens/vinhoproduto4.png" alt="Vinho Sassoalloro 2020" style="width: 40%;"></a>
+        <div style="width: 50%;">
+            <h2><a href="produto4.html">Vinho Sassoalloro 2020</a></h2>
+            <p>399,90 R$</p>
+        </div>
+    </section>
+    <footer>
+            <section><p>&copy; Vinheria Agnello Inc. Todos os direitos reservados</p></section>
+            <section id="socialmedia">
+                <span>@vinheriaagnello</span>
+                <span>+55 11 94345-2313</span> 
+            </section>
+    </footer>
+</body>
+</html>
